@@ -57,4 +57,7 @@ user_agent = "postbot v1 by u/" #add your text here
 reddit = praw.Reddit(client_id = client_id, client_secret = client_secret, username = username, password = password, user_agent = user_agent)
 subreddit = reddit.subreddit("") #select subreddit to post in
 
-#to add bot to channel, use the provided url and login to your discord, it should prompt the rest
+#discord API
+# client = MyClient(intents=intents)
+client.run('')
+#to add bot to channel, build url in developer portal and use the url. Log in to your discord, it should prompt the rest
