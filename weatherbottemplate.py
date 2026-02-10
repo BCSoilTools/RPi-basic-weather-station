@@ -59,5 +59,6 @@ subreddit = reddit.subreddit("") #select subreddit to post in
 
 #discord API
 # client = MyClient(intents=intents)
-client.run('')
+client.run('') #you need to add your discord bot key here. 
 #to add bot to channel, build url in developer portal and use the url. Log in to your discord, it should prompt the rest
+
